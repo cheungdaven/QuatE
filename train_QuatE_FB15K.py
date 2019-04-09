@@ -2,7 +2,6 @@ import config
 from  models import *
 import json
 import os 
-os.environ['CUDA_VISIBLE_DEVICES']='1'
 con = config.Config()
 con.set_in_path("./benchmarks/FB15K/")
 con.set_work_threads(8)
