@@ -11,7 +11,6 @@ con.set_alpha(0.1)
 con.set_bern(0)
 con.set_dimension(250) # or use dim=300 and train times 2000 
 con.set_lmbda(0.05)
-con.set_lmbda_two(0.05)
 con.set_margin(1.0)
 con.set_ent_neg_rate(10)
 con.set_rel_neg_rate(0)
