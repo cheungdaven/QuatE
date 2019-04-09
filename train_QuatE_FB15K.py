@@ -6,7 +6,7 @@ os.environ['CUDA_VISIBLE_DEVICES']='1'
 con = config.Config()
 con.set_in_path("./benchmarks/FB15K/")
 con.set_work_threads(8)
-con.set_train_times(3000)
+con.set_train_times(5000)
 con.set_nbatches(10)	
 con.set_alpha(0.1)
 con.set_bern(0)
