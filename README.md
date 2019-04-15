@@ -2,7 +2,7 @@
 
 Implementation of paper "Quaternion Knowledge Graph Embedding"
 
-Hyer-parameters for reproducing the reported results are provided in the train_QuatE_dataset.py.
+Hyper-parameters for reproducing the reported results are provided in the train_QuatE_dataset.py.
 
 # How to run 
 1.  export LD_LIBRARY_PATH=/usr/local/lib:/usr/lib:/usr/local/lib64:/usr/lib64
