@@ -1,6 +1,6 @@
 
 
-Implementation of paper "Quaternion Knowledge Graph Embedding"
+Implementation of paper "[Quaternion Knowledge Graph Embedding](https://arxiv.org/abs/1904.10281)"
 
 Hyper-parameters for reproducing the reported results are provided in the train_QuatE_dataset.py.
 
@@ -16,7 +16,7 @@ STEP:
 
 
 
-# Citataion
+# Citation
 
 ```
 @article{zhang2019quaternion,
