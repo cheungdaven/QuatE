@@ -1,6 +1,6 @@
 
 
-Implementation of paper "[Quaternion Knowledge Graph Embedding](https://arxiv.org/abs/1904.10281)"
+Implementation of <b>NeurIPS 2019</b> paper "[Quaternion Knowledge Graph Embeddings](https://arxiv.org/abs/1904.10281)"
 
 Hyper-parameters for reproducing the reported results are provided in the train_QuatE_dataset.py.
 
