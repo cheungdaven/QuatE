@@ -30,14 +30,14 @@ class QuatE(Model):
 
     def init_weights(self):
         if True:
-            r, i, j, k = self.quaternion_init(self.config.entTotal, self.config.hidden_size)
+            r, i, j, k = self.quaternion_init(self.config.hidden_size, self.config.hidden_size)
             r, i, j, k = torch.from_numpy(r), torch.from_numpy(i), torch.from_numpy(j), torch.from_numpy(k)
             self.emb_s_a.weight.data = r.type_as(self.emb_s_a.weight.data)
             self.emb_x_a.weight.data = i.type_as(self.emb_x_a.weight.data)
             self.emb_y_a.weight.data = j.type_as(self.emb_y_a.weight.data)
             self.emb_z_a.weight.data = k.type_as(self.emb_z_a.weight.data)
 
-            s, x, y, z = self.quaternion_init(self.config.relTotal, self.config.hidden_size)
+            s, x, y, z = self.quaternion_init(self.config.hidden_size, self.config.hidden_size)
             s, x, y, z = torch.from_numpy(s), torch.from_numpy(x), torch.from_numpy(y), torch.from_numpy(z)
             self.rel_s_b.weight.data = s.type_as(self.rel_s_b.weight.data)
             self.rel_x_b.weight.data = x.type_as(self.rel_x_b.weight.data)
